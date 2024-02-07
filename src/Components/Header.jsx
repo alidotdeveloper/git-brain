@@ -15,7 +15,7 @@ function Header() {
             <a class="mr-5 hover:text-white-900">Third Link</a>
             <a class="mr-5 hover:text-white-900">Fourth Link</a> */}
           </nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-#173D43 rounded text-base mt-4 md:mt-0">Download
+          <button class="rounded bg-green-900/20 text-gray-400 font-normal inline-flex items-center  border-0 py-1 px-3 focus:outline-none hover:bg-#173D43,text-white mt-4 md:mt-0">Download
           </button>
         </div>
       </header>

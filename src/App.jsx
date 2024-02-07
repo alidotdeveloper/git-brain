@@ -1,15 +1,12 @@
 import Header from "./Components/Header";
-
+import Main from "./Components/Main";
 function App() {
 
 
   return (
     <>
       <Header />
-     <h1 className=" text-red-500">
-        Hello world!
-        
-      </h1>
+      <Main />
       
     
     </>
