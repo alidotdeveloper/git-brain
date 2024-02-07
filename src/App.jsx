@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
-import Main from "./Components/Main";
+import Main from "./Components/Hero";
+import HeadingImage from "./Components/HeadingImage";
 function App() {
 
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Main />
+      <HeadingImage />
       
     
     </>

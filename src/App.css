@@ -46,3 +46,16 @@ body{
   background-color: #161618;
 }
 
+.title-gradient-demo {
+  --tw-gradient-from: #77c0f4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(119, 192, 244, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #9772de var(--tw-gradient-to-position);
+}
+
+.title-gradient-productive {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

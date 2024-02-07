@@ -3,8 +3,8 @@ import React from 'react'
 function Main() {
   return (
       <>
-      <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
-       <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div class=" pb-8 sm:pb-8 lg:pb-2">
+       <div class="mx-auto max-w-screen-3xl px-4 md:px-8">
       <section class="flex flex-col items-center pt-7">
     <div className=' relative mb-6 overflow-hidden rounded-lg bg-gray-100  md:mb-8'>
    <img src="../../images/gitbrain_large.png?auto=format" width={120} height={150} loading="lazy" alt="Photo by Minh Pham" class=" object-cover object-center" ></img>
