@@ -1,6 +1,7 @@
 import Header from "./Components/Header";
 import Main from "./Components/Hero";
 import HeadingImage from "./Components/HeadingImage";
+import LIsection from "./Components/LIsection";
 function App() {
 
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Main />
       <HeadingImage />
+      <LIsection />
       
     
     </>
