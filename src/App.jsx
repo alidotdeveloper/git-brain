@@ -4,6 +4,7 @@ import HeadingImage from "./Components/HeadingImage";
 import LIsection from "./Components/LIsection";
 import RIsection from "./Components/RIsection";
 import Whitegradhead from "./Components/Whitegradhead";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -57,6 +58,20 @@ function App() {
         head="Keyboard shortcuts for everything"
         summary="GitBrain's keyboard-friendly design empowers you to manage your Git workflow even more efficiently. 
         You can open the GitBrain panel with the hotkey that you've assigned, and perform git operations with just a few keystrokes." />
+      
+      <RIsection
+    
+        gradcolor=" bg-gradient-to-r from-orange-300 to-violet-600"
+        gradhead="Made for Mac"
+        whitetext="" 
+        whitesmall= "Optimized performance & native UI"
+        summary=" GitBrain is a completely native Mac app, so it feels right at home on your Mac. It's lightweight, fast, and provides native feeling UIs such as menu bar,
+         floating panel, and more. GitBrain also provides beautiful light & dark mode themes that fits perfectly with your Mac."
+        src="https://gitbrain.dev/_next/image?url=%2Fimages%2Fmac.png&w=1920&q=75"
+      
+      />
+      <Footer/>
+    
       
     </>
   )

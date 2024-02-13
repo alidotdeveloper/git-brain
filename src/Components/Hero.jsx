@@ -1,4 +1,5 @@
 import React from 'react'
+import Headinggreen from './Headinggreen'
 
 function Main() {
   return (
@@ -10,7 +11,7 @@ function Main() {
    <img src="../../images/gitbrain_large.png?auto=format" width={120} height={150} loading="lazy" alt="Photo by Minh Pham" class=" object-cover object-center" ></img>
 </div>
       <div class="flex max-w-xl flex-col from-[#59D499] to-[#1EAE98] items-center pb-0 pt-0.8 text-center sm:pb-10 lg:pb-22 lg:pt-25">
-        <span class="uppercase tracking-[0.12em] font-normal text-md bg-gradient-to-r from-[#59D499] to-[#1EAE98] text-transparent bg-clip-text ">GITBRAIN</span>
+      <Headinggreen head="GITBRAIN"/>
 
         <h1 class="mb-4 text-4xl font-bold text-white sm:text-5xl md:mb-8 md:text-4xl pt-2">AI-powered Git Client for Mac</h1>
 
