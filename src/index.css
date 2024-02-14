@@ -25,3 +25,24 @@
   background-clip: text;
   color: transparent;
 }
+
+.grad-color{
+  opacity: 0.4;
+  background: radial-gradient(50% 50% at 50% 50%,rgba(92,195,250,.28) 0,rgba(92,195,250,0) 100%);
+  width:1200px;
+  height:800px;
+  top:500px;
+  position: absolute;
+  left:-200px
+}
+
+.grad-color-left{
+  opacity: 0.4;
+  background: radial-gradient(50% 50% at 50% 50%,rgba(158,110,230,.28) 0,rgba(158,110,230,0) 100%);
+  width:1010px;
+  height:800px;
+  top:500px;
+  position: absolute;
+  right:10px
+}
+

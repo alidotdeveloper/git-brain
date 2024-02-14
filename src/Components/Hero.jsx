@@ -27,7 +27,7 @@ function Main() {
                           </div>
                           
             <a href= "/" class="flex m-9 flex-col gap-2.5 sm:flex-row sm:justify-center">
-            <img  src="../../images/featured.svg"  width={270} height={250} loading="lazy" alt="Photo by Minh Pham" class=" object-cover object-center" ></img>
+            <img  src="../../images/featured.svg"  width={230} height={220} loading="lazy" alt="Photo by Minh Pham" class=" object-cover object-center" ></img>
            </a>
       </div>
     </section>
