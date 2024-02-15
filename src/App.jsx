@@ -29,7 +29,7 @@ function App() {
       />
       <LIsection
         img="https://gitbrain.dev/_next/image?url=%2Fimages%2Fsummary.png&w=1920&q=75"
-        width="650"
+        width="550"
         height="550"
         gradcolor="bg-gradient-to-r from-sky-400 to-yellow-700"
         gradhead="Self code review"
