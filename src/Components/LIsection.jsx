@@ -2,14 +2,14 @@ import React from 'react'
 
 function LIsection(props) {
   return (
-    <div className='  mt-8'>
+    <div className='   bg-gradient bg-gradient-summary w-full'>
    
       <div className='mx-auto max-w-6xl flex '>
          
         
-        <div className='m-6 flex-row  gap-2.5  sm:justify-center w-1/2 p-4'>
+        <div className=' mx-6  flex-row  gap-2.5  sm:justify-center w-1/2 p-4 '>
             
-                  <img src={props.img} alt=''  width={props.width} height={props.height} sizes='cover'/> 
+                  <img src={props.img} alt=''  width={props.width} height={props.height} sizes='cover' className='drop-shadow-xl '/> 
               
               </div>
               <div className='m-6 flex-row gap-2.5  sm:justify-center w-1/2 '>
@@ -24,7 +24,9 @@ function LIsection(props) {
                     {props.summary}
            </p>
         </div>
-    </div>
+
+      </div>
+    
 
     </div>
   )
