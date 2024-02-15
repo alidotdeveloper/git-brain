@@ -15,7 +15,7 @@ function LIsection(props) {
         <div className='m-4 flex-row gap-2.5  sm:justify-center w-1/2 '>
             
           <p class="text-3xl font-normal sm:text-5xl md:mb-1 md:text-2xl pt-16   text-white"> <span
-            className={`${props.gradcolor} mr-44  text-transparent bg-clip-text text-3xl 
+            className={`${props.gradcolor} mr-64  text-transparent bg-clip-text text-3xl 
                 `}> {props.gradhead} <span className='text-white text-3xl' > { props.whitetext}</span>  </span> 
                       <span className='mt-6 font-normal'>{ props.head}</span></p>
         

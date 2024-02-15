@@ -7,7 +7,7 @@ function Main() {
       <div class=" pb-8 sm:pb-8 lg:pb-2">
        <div class="mx-auto max-w-screen-3xl px-4 md:px-8">
       <section class="flex flex-col items-center pt-12">
-    <div className=' relative mb-6 overflow-hidden rounded-lg bg-gray-100  md:mb-8'>
+    <div className=' relative mb-6 overflow-hidden rounded-lg bg-gray-100  md:mb-8 bg-transparent'>
    <img src="../../images/gitbrain_large.png?auto=format" width={120} height={150} loading="lazy" alt="Photo by Minh Pham" class=" object-cover object-center" ></img>
 </div>
       <div class="flex max-w-xl flex-col from-[#59D499] to-[#1EAE98] items-center pb-0 pt-0.8 text-center sm:pb-10 lg:pb-22 lg:pt-25">
