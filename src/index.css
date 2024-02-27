@@ -88,3 +88,10 @@ position: relative;
 .bg-section3{
   background-image: linear-gradient(to bottom,var(--tw-gradient-stops));
 }
+.bg-grad-section4{
+  background-image: linear-gradient(to bottom,var(--tw-gradient-stops));
+    --tw-gradient-from: rgba(196,105,201,.1) var(--tw-gradient-from-position);
+    --tw-gradient-to: rgba(196,105,201,0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #161618 var(--tw-gradient-to-position);
+}

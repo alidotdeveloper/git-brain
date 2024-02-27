@@ -56,16 +56,18 @@ function App() {
         img="https://gitbrain.dev/_next/image?url=%2Fimages%2Fkeyboard.png&w=1920&q=75"
         width="380"
         height="350"
-        gradcolor="bg-gradient-to-r from-violet-500 to-violet-800"
+        gradcolor="bg-gradient-to-r from-purple-500 to-violet-300"
         gradhead="Keyboard-friendly"
         whitetext="design"
         head="Keyboard shortcuts for everything"
         summary="GitBrain's keyboard-friendly design empowers you to manage your Git workflow even more efficiently. 
-        You can open the GitBrain panel with the hotkey that you've assigned, and perform git operations with just a few keystrokes." />
-      
+        You can open the GitBrain panel with the hotkey that you've assigned, and perform git operations with just a few keystrokes."
+        grad="bg-grad-section4"
+      />
+        
       <RIsection
     
-        gradcolor=" bg-gradient-to-r from-orange-300 to-violet-600"
+        gradcolor=" bg-gradient-to-r from-indigo-300 to-indigo-200"
         gradhead="Made for Mac"
         whitetext="" 
         whitesmall= "Optimized performance & native UI"
