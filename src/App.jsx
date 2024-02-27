@@ -25,6 +25,7 @@ function App() {
         GitBrain intelligently splits your code changes into multiple AI-generated commits and even allows you
         to interactively edit them. You can select, reorder, and even merge multiple commits into one with the help of our AI."
         src="../../images/ai-commit.gif"
+        grad="bg-gradient bg-gradient-to-b from-gradient-from to-gradient-to"
       
       />
       <LIsection
@@ -37,7 +38,9 @@ function App() {
         summary="GitBrain automatically generates a summary for your code changes,
          so you can easily review them before committing.
          It's a helpful way to remind yourself of what you've done, and also ensures
-          that you don't commit any unwanted changes." />
+          that you don't commit any unwanted changes."
+        grad="bg-gradient bg-gradient-summary "
+      />
         <RIsection
         gradcolor=" bg-gradient-to-r from-orange-300 to-violet-600"
         gradhead="Auto-detect"
@@ -46,6 +49,7 @@ function App() {
         summary="  GitBrain intelligently detects the project you're currently working on from your favorite IDEs, ensuring a seamless
          Git management experience. Upon opening the GitBrain panel, you'll find your current project conveniently displayed at the top.."
         src="https://gitbrain.dev/_next/image?url=%2Fimages%2Fauto-detect.png&w=1920&q=75"
+        grad="bg-gradient-section3 bg-section3"
       
       />
          <LIsection

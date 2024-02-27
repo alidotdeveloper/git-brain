@@ -2,7 +2,7 @@ import React from 'react'
 
 function LIsection(props) {
   return (
-    <div className='  mt-8 bg-gradient bg-gradient-to-b from-gradient-from to-gradient-to grad-commit w-full bg-transparent '>
+    <div className={` ${props.grad}  grad-commit w-full bg-transparent `} >
    
         <div className='mx-auto max-w-6xl flex  '>
            

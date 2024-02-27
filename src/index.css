@@ -77,3 +77,14 @@ position: relative;
   --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
   --tw-gradient-to: hsla(41,94%,70%,.1) var(--tw-gradient-to-position);
 }
+
+.bg-gradient-section3 {
+  --tw-gradient-from: hsla(41,94%,70%,.1) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsla(41,94%,70%,0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+  --tw-gradient-to: rgba(196,105,201,.1) var(--tw-gradient-to-position);
+  background-image: linear-gradient(to bottom,var(--tw-gradient-stops));
+}
+.bg-section3{
+  background-image: linear-gradient(to bottom,var(--tw-gradient-stops));
+}
