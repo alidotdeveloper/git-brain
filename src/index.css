@@ -95,3 +95,10 @@ position: relative;
     --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
     --tw-gradient-to: #161618 var(--tw-gradient-to-position);
 }
+
+@media only screen and (max-width: 767px) {
+ 
+  .download-btn {
+    display: none;
+  }
+}

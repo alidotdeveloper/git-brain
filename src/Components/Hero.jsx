@@ -13,7 +13,7 @@ function Main() {
       <div class="flex max-w-xl flex-col from-[#59D499] to-[#1EAE98] items-center pb-0 pt-0.8 text-center sm:pb-10 lg:pb-22 lg:pt-25">
       <Headinggreen head="GITBRAIN"/>
 
-        <h1 class="mb-4 text-4xl font-bold text-white sm:text-5xl md:mb-8 md:text-4xl pt-2">AI-powered Git Client for Mac</h1>
+        <h1 class="mb-4 md:text-4xl font-bold text-white text-4xl md:mb-4  pt-2 mx-3 ">AI-powered Git Client for Mac</h1>
 
         <p class="mb-8 leading-relaxed text-gray-300 md:mb-18 xl:text-lg">Minimal git experience with AI commit messages, code splitting, and more</p>
 
