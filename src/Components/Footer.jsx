@@ -6,7 +6,7 @@ function Footer() {
           
           <Headinggreen head="ARE YOU READY?" />
           <div class="flex  flex-col gap-2.5 sm:flex-row sm:justify-center m-5 mb-20">
-          <a href="#" class="bg-white/90 rounded-md px-20 py-2 text-md font-medium text-[#48AE81] hover:bg-white focus:outline-none focus-visible:ring-white/60 transition-all ring-2 ring-white/30  ">Download GitBrain</a>
+          <a href="#" class="bg-white/90 rounded-md px-20 py-2 mx-8 text-md font-medium text-[#48AE81] hover:bg-white focus:outline-none focus-visible:ring-white/60 transition-all ring-2 ring-white/30  ">Download GitBrain</a>
           </div>
           
           <header class="text-gray-600 body-font">

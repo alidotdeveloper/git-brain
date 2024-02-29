@@ -17,7 +17,7 @@ function LIsection(props) {
                       
              </p>
         </div>
-          <div className=' flex-row  gap-2.5  sm:justify-center md:w-1/2 p-4  '>
+          <div className=' flex-row  gap-2.5  sm:justify-center md:w-1/2 p-4  px-6 '>
               
               <img className="rounded-xl z-1 drop-shadow-2xl " src={props.src} alt=''  width={750} height={650} sizes='cover'/> 
                 

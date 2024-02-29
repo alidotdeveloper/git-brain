@@ -7,7 +7,7 @@ function LIsection(props) {
       <div className='mx-auto w-full md:max-w-7xl   flex flex-col-reverse md:flex-row '>
          
         
-        <div className=' pl-36 pr-20  flex-row  gap-2.5   sm:justify-center w-66 p-4 '>
+        <div className=' md:pl-36 md:pr-20 px-16  flex-row  gap-2.5   sm:justify-center w-66  p-4 '>
             
            <img src={props.img} alt=''  width={props.width} height={props.height}  className='drop-shadow-xl '/> 
               
